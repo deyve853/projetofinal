@@ -1,18 +1,20 @@
- 
-/* primeira forma*/
-body
-{
-    background-color: yellow;
+/*Exemplo de CSS Externo*/
+
+body{
+    background-color:cornsilk;
 }
 
-
-
-
-
-    
-
-
+/*pai*/
 ul{
     background-color: yellow;
 }
 
+/*filho*/
+
+ul li{
+    background-color:brown;
+}
+/*neto*/
+ul li a{
+    background-color: aqua;
+}
